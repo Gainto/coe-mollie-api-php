@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Resources\Customer;
-use Mollie\Api\Resources\LazyCollection;
-use Mollie\Api\Resources\Mandate;
-use Mollie\Api\Resources\MandateCollection;
+use Coe\Mollie\Api\Resources\Customer;
+use Coe\Mollie\Api\Resources\LazyCollection;
+use Coe\Mollie\Api\Resources\Mandate;
+use Coe\Mollie\Api\Resources\MandateCollection;
 
 class MandateEndpoint extends CollectionEndpointAbstract
 {

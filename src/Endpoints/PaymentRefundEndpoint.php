@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Resources\LazyCollection;
-use Mollie\Api\Resources\Payment;
-use Mollie\Api\Resources\Refund;
-use Mollie\Api\Resources\RefundCollection;
+use Coe\Mollie\Api\Resources\LazyCollection;
+use Coe\Mollie\Api\Resources\Payment;
+use Coe\Mollie\Api\Resources\Refund;
+use Coe\Mollie\Api\Resources\RefundCollection;
 
 class PaymentRefundEndpoint extends CollectionEndpointAbstract
 {
